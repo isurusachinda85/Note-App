@@ -26,7 +26,7 @@ const Index: React.FC = () => {
   return (
     <View className="bg-gray-200 flex-1">
 
-      <View className="pt-16 pl-5 pr-5">
+      <View className="pt-16 pl-5 pr-5  ">
         <Text className="font-bold text-2xl ">Today 's tasks</Text>
 
         <ScrollView className="pt-5">
