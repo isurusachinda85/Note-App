@@ -6,7 +6,7 @@ const Task = (props: any) => {
         <View className='bg-white p-5 rounded-lg flex flex-row items-center justify-between mb-5'>
 
             <View className='flex-row items-center flex-wrap '>
-                <TouchableOpacity className='w-[24px] h-[24px] bg-blue-200 rounded-md mr-2'></TouchableOpacity>
+                <TouchableOpacity className='w-[24px] h-[24px] bg-blue-400 rounded-md mr-2'></TouchableOpacity>
                 <Text>{props.text}</Text>
             </View>
 
