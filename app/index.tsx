@@ -28,7 +28,7 @@ const Index: React.FC = () => {
     <View className="bg-gray-200 flex-1">
 
       <View className="pt-16 pl-5 pr-5  ">
-        <Text className="font-bold text-2xl ">Notes</Text>
+        <Text className="font-bold text-2xl ">Write Your Notes</Text>
 
         <ScrollView className="pt-5">
           {
