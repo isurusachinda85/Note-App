@@ -11,11 +11,8 @@ const Index: React.FC = () => {
   const [taskItems, setTaskItems] = useState<string[]>([]);
 
   const handleAddTask = () => {
-
-    if (task.trim().length > 0) {
-      setTaskItems([...taskItems, task]);
-      setTask("");
-    }
+    setTaskItems([...taskItems, task]);
+    setTask("");
   }
 
   const completeTask = (index: number) => {
@@ -27,10 +24,10 @@ const Index: React.FC = () => {
   return (
     <View className="bg-gray-200 flex-1">
 
-      <View className="pt-16 pl-5 pr-5  ">
+      <View className="pt-16 pl-5 pr-5 ">
         <Text className="font-bold text-2xl ">Write Your Notes</Text>
 
-        <ScrollView className="pt-5">
+        <ScrollView className="pt-2 mt-3 h-[80%] ">
           {
             taskItems.map((item, index) => {
               return (
