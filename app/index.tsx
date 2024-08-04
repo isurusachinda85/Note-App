@@ -11,6 +11,7 @@ const Index: React.FC = () => {
   const [taskItems, setTaskItems] = useState<string[]>([]);
 
   const handleAddTask = () => {
+
     if (task.trim().length > 0) {
       setTaskItems([...taskItems, task]);
       setTask("");
