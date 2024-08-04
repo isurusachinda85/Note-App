@@ -27,7 +27,7 @@ const Index: React.FC = () => {
     <View className="bg-gray-200 flex-1">
 
       <View className="pt-16 pl-5 pr-5  ">
-        <Text className="font-bold text-2xl ">Today 's tasks</Text>
+        <Text className="font-bold text-2xl ">Notes</Text>
 
         <ScrollView className="pt-5">
           {
@@ -46,7 +46,7 @@ const Index: React.FC = () => {
 
       <KeyboardAvoidingView behavior={Platform.OS === "android" ? "padding" : "height"}
         className="absolute bottom-6 w-[100%] flex-row justify-around items-center ">
-        <TextInput placeholder="Write a task"
+        <TextInput placeholder="Write a Note"
           className="bg-white rounded-3xl w-[230px] p-3 border border-gray-300"
           value={task} onChangeText={(text) => setTask(text)} />
 
